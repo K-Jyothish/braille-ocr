@@ -4,6 +4,10 @@ Raw Project Gutenberg texts are cleaned, cut into sentences and assigned to
 train/val/test by book (see ``configs/corpus.json``). Sentences that also occur
 in an earlier split (train before val before test) are dropped, so evaluation
 text is never seen during training.
+
+A second test source, ``test_unseen``, holds recent sentences written for this
+project (``texts/``), so that LLM correction cannot benefit from having
+memorized public-domain books.
 """
 
 from __future__ import annotations
@@ -14,6 +18,7 @@ import unicodedata
 from pathlib import Path
 
 SPLITS = ("train", "val", "test")
+UNSEEN_SPLIT = "test_unseen"
 
 _START = re.compile(r"\*\*\* ?START OF (THE|THIS) PROJECT GUTENBERG EBOOK.*?\*\*\*", re.I | re.S)
 _END = re.compile(r"\*\*\* ?END OF (THE|THIS) PROJECT GUTENBERG EBOOK", re.I)
@@ -103,3 +108,34 @@ def save_splits(splits: dict[str, list[str]], out_dir: str | Path) -> None:
 def load_split(corpus_dir: str | Path, split: str) -> list[str]:
     path = Path(corpus_dir) / f"{split}.txt"
     return [line for line in path.read_text(encoding="utf-8").splitlines() if line]
+
+
+def load_unseen(paths: list[str | Path]) -> list[str]:
+    """Sentences from plain-text files, one per line; ``#`` comments and missing files are skipped."""
+    out = []
+    for path in map(Path, paths):
+        if not path.exists():
+            continue
+        for line in path.read_text(encoding="utf-8").splitlines():
+            line = " ".join(normalize(line).split())
+            if line and not line.startswith("#"):
+                out.append(line)
+    return list(dict.fromkeys(out))
+
+
+def shared_ngrams(sentences: list[str], reference: list[str], n: int = 8) -> dict[str, str]:
+    """For each sentence sharing an ``n``-word sequence with ``reference``, one such sequence.
+
+    Used to check that unseen test text is not quoted from the training books.
+    """
+    def grams(s: str) -> list[str]:
+        words = re.findall(r"[a-z0-9']+", s.lower())
+        return [" ".join(words[i:i + n]) for i in range(len(words) - n + 1)]
+
+    ref = {g for s in reference for g in grams(s)}
+    hits = {}
+    for s in sentences:
+        common = [g for g in grams(s) if g in ref]
+        if common:
+            hits[s] = common[0]
+    return hits

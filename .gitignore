@@ -23,3 +23,6 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
+
+# training runs (checkpoints, logs)
+runs/

@@ -1,0 +1,23 @@
+{
+  "model": "resnet_heatmap",
+  "backbone": "resnet34",
+  "no_pretrained": false,
+  "data": "/Users/jyothish/Documents/Documents/Project/braille-project/new/data/synth",
+  "name": "heatmap_quick",
+  "runs": "/Users/jyothish/Documents/Documents/Project/braille-project/new/runs",
+  "steps": 2000,
+  "batch": 8,
+  "crops_per_page": 4,
+  "crop": 256,
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "warmup": 300,
+  "max_train_pages": null,
+  "val_pages": 12,
+  "val_every": 500,
+  "tol": 3.0,
+  "infer_tile": 512,
+  "workers": 4,
+  "device": "auto",
+  "seed": 0
+}

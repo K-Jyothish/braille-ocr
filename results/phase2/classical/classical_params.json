@@ -1,0 +1,9 @@
+{
+  "bg_sigma": 14.0,
+  "smooth": 1.5,
+  "k": 0.8,
+  "close": 1,
+  "min_area": 6.0,
+  "max_area": 400.0,
+  "min_circularity": 0.3
+}

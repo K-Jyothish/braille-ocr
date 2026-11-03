@@ -13,12 +13,14 @@ import sys
 from pathlib import Path
 
 import cv2
+import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
 from brailleocr.corpus import load_split  # noqa: E402
-from brailleocr.synth.dataset import SplitText, cell_slots, make_page  # noqa: E402
+from brailleocr.synth.dataset import SplitText, make_page  # noqa: E402
+from brailleocr.synth.visualize import draw_ground_truth  # noqa: E402
 
 
 def main() -> None:
@@ -37,15 +39,7 @@ def main() -> None:
     stem = f"{args.split}_{args.index}_s{round(label['severity'] * 100):03d}"
     (args.out / f"{stem}.jpg").write_bytes(jpeg)
 
-    img = cv2.imdecode(__import__("numpy").frombuffer(jpeg, "uint8"), cv2.IMREAD_COLOR)
-    r = max(2, int(label["px_per_mm"] * 0.4))
-    for slots in cell_slots(label).values():
-        for x, y in slots:
-            cv2.circle(img, (int(round(x)), int(round(y))), 1, (255, 128, 0), -1)
-    for x, y in label["ghost_dots"]:
-        cv2.circle(img, (int(round(x)), int(round(y))), r, (0, 0, 255), 1)
-    for x, y, *_ in label["dots"]:
-        cv2.circle(img, (int(round(x)), int(round(y))), r, (0, 200, 0), 1)
+    img = draw_ground_truth(cv2.imdecode(np.frombuffer(jpeg, np.uint8), cv2.IMREAD_COLOR), label)
     cv2.imwrite(str(args.out / f"{stem}_gt.jpg"), img)
     print(json.dumps({k: label[k] for k in ("grade", "severity", "text", "image_size", "render_params")}, indent=1))
     print("\n".join(label["braille_lines"]))

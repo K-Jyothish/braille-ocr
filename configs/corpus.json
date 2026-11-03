@@ -1,5 +1,6 @@
 {
   "_comment": "Project Gutenberg books by ID. Splits are by book, and no author appears in more than one split, so test text is never seen in training.",
+  "unseen_sources": ["texts/unseen_modern_2026-11.txt", "texts/unseen_human.txt"],
   "books": [
     {"id": 1342,  "title": "Pride and Prejudice",                 "author": "Jane Austen",          "split": "train"},
     {"id": 84,    "title": "Frankenstein",                        "author": "Mary Shelley",         "split": "train"},

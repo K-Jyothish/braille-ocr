@@ -1,0 +1,158 @@
+# Unseen test text, written for this project on 2026-11-03.
+# One sentence per line; lines starting with # are ignored.
+# Purpose: test text that no language model can have memorized verbatim, so
+# LLM correction gains on this split cannot come from recalling the source.
+# Caveat: these were drafted with an AI assistant. Append human-written
+# sentences (e.g. texts/unseen_human.txt) before final experiments.
+The delivery robot waited at the crosswalk until the light turned green.
+Priya forgot to charge her earbuds, so she listened to the podcast on the bus speaker.
+Our team moved the weekly stand-up from Monday to Tuesday at 9:30.
+The new library app lets you reserve a study room up to three days ahead.
+He typed the verification code twice before realizing it had already expired.
+After the storm, the solar panels on the community hall still produced enough power for the lights.
+Can you send me the slides before the meeting starts?
+The cafe now accepts only card payments, which annoyed several regular customers.
+My grandmother learned to make video calls during the long winter of 2021.
+The museum's audio guide is available in eleven languages, including Malayalam.
+Somebody left a reusable water bottle on the third floor of the engineering block.
+The battery warning appeared just as the drone reached the edge of the paddy field.
+We split the restaurant bill four ways using a payments app.
+The train to Ernakulam was delayed by 40 minutes because of track maintenance.
+She renamed the shared folder, and suddenly nobody could find the project files.
+A small startup in Kochi is building low-cost sensors for monitoring river pollution.
+The printer in the lab jams whenever someone uses recycled paper.
+I asked the voice assistant for the weather, and it started playing jazz instead.
+Ravi's electric scooter can travel about 85 kilometres on a single charge.
+The online exam portal crashed ten minutes before the deadline.
+Please update your password; the old one appeared in a data breach last month.
+The farmers' market now has a stall that sells refurbished phones.
+Our neighbour installed a rainwater harvesting tank on the terrace.
+The streaming service raised its price again, so we cancelled the subscription.
+Ananya builds tiny greenhouses out of old plastic bottles for her balcony garden.
+The bus app showed the vehicle moving, but the bus never arrived at our stop.
+He spent the whole weekend debugging a single missing semicolon.
+The hospital introduced a token system so patients no longer stand in long queues.
+I keep my grocery list in a notes app that syncs with my laptop.
+The college canteen started serving millet dosa twice a week.
+A power cut interrupted the cricket match right before the final over.
+The QR code on the menu took us to a page that would not load.
+Meera volunteers on Saturdays, teaching senior citizens how to use smartphones.
+The city plans to plant two thousand trees along the new metro line.
+My cousin works remotely for a company whose office is in Berlin.
+The smart lock refused to open because its batteries were almost empty.
+We watched the rocket launch on a livestream with over a million viewers.
+The landlord finally agreed to fix the leaking kitchen tap.
+Nobody on the group chat replied when I asked who had the spare key.
+The fitness tracker claimed I had walked twelve thousand steps, mostly around the office.
+Karthik ordered a laptop online and received a box of bathroom tiles instead.
+The school replaced its chalkboards with interactive displays last June.
+I turned off notifications for every app except messages and the calendar.
+The weather alert warned of heavy rain in six districts until Friday.
+Our professor records every lecture and uploads it the same evening.
+The parking garage now charges by the minute instead of by the hour.
+She translated her grandfather's handwritten recipes into a small digital cookbook.
+The traffic police started using body cameras on the highway checkpoints.
+Two students designed a mobile app that reads bus timetables aloud.
+The shop assistant scanned my phone instead of asking for a paper receipt.
+After the update, the keyboard kept suggesting words I had never typed.
+The village clinic uses a tablet to consult doctors in the city by video.
+I bought a secondhand bicycle and replaced both tyres for 900 rupees.
+The festival organisers asked visitors not to fly drones near the temple.
+Anil's start-up failed, but he says he learned more than he did in college.
+The air quality index crossed 300, so the schools moved classes online.
+My sister prints her concert tickets because she does not trust her phone battery.
+The ferry service added a new evening trip for office workers.
+The chatbot on the bank website could not answer a single question correctly.
+Fatima uses a screen reader to browse the web and complains that many sites ignore accessibility.
+The neighbourhood group organised a clean-up drive along the canal on Sunday morning.
+Our internet plan promises fast speeds, but video calls still freeze every afternoon.
+The startup's founder posted an apology after the app leaked users' locations.
+I left my umbrella in a ride-share car and never saw it again.
+The new pedestrian bridge has ramps on both sides for wheelchair users.
+The cooking class taught us how to bake bread without an oven.
+He sold his old camera online and used the money to buy a tripod.
+The weather in Munnar was so foggy that we could barely see the tea plantations.
+The power bank was confiscated at the airport because it was too large.
+The children made a stop-motion film with clay figures and a borrowed phone.
+The doctor sent the prescription directly to the pharmacy by text message.
+Our office switched to a four-day week as a six-month experiment.
+The bookstore now hosts poetry readings every second Thursday.
+Sneha accidentally replied to the whole department instead of just her manager.
+The marathon route was changed at the last minute because of road repairs.
+The apartment association voted to install chargers for electric cars in the basement.
+I found my lost wallet using a tracking tag that cost less than a pizza.
+The startup promised same-day delivery but took nine days to send a phone case.
+The radio station plays only songs requested by listeners on weekends.
+The water purifier beeps loudly whenever the filter needs to be replaced.
+Teachers used shared documents so every student could edit the class newsletter.
+The local council published its budget online for the first time this year.
+Arjun's laptop fan sounds like a jet engine whenever he opens a spreadsheet.
+The art gallery added tactile models of its sculptures for blind visitors.
+The ticket machine accepted my coins but did not print a ticket.
+We used a translation app to order food in a small restaurant in Seoul.
+The hackathon lasted thirty-six hours and ended with pizza and very tired coders.
+Her smartwatch reminded her to stand up during a two-hour exam.
+The bridge was closed for inspection after a truck hit one of its pillars.
+The supermarket's self-checkout kept asking me to remove unexpected items.
+The volunteers mapped every broken streetlight in the ward using a shared spreadsheet.
+I tried to cancel the free trial, but the button was hidden at the bottom of the page.
+The film festival offered subtitles and audio descriptions for every screening.
+The fishermen now check wave forecasts on their phones before heading out.
+Our class group decided to replace printed notes with a shared online folder.
+The courier left the parcel with the security guard, who promptly forgot about it.
+The museum will remain closed on Monday, 16 November, for electrical work.
+The new phone has three cameras, yet my photos still look blurry at night.
+The robotics club built a machine that sorts plastic from paper.
+Grandpa insists on reading the newspaper in print, even though he owns a tablet.
+The cyclists asked the city for a protected lane on the busy market road.
+The tutoring app matched me with a chemistry teacher who lives two streets away.
+During the outage, people gathered at the bakery because it had a generator.
+The coding bootcamp promised jobs to every graduate, which turned out to be untrue.
+I renewed my driving licence online without visiting a single office.
+The kids argued for an hour about which video game to play first.
+The startup sells biodegradable phone covers made from coconut husk.
+She posted a photo of the sunset, and her phone automatically tagged the beach.
+The public library lends laptops to students who cannot afford one.
+Our flight was cancelled, and the airline sent us a voucher by email at midnight.
+The local news channel now streams its evening bulletin with sign-language interpretation.
+He left a five-star review even though the delivery arrived cold.
+The new law requires all government websites to work with screen readers.
+The heat wave forced the zoo to give the elephants cold showers twice a day.
+Rahul learned Braille in six months so he could help his younger brother with homework.
+The audio book narrator mispronounced the name of almost every character.
+The startup's office has beanbags, free snacks, and no windows.
+A volunteer group delivered groceries to elderly residents during the floods.
+I accidentally set my alarm for 5:00 p.m. instead of 5:00 a.m.
+The software update added a dark mode that nobody had asked for.
+Neha runs a small online shop selling hand-painted mugs and notebooks.
+The bus conductor now accepts digital payments through a small card reader.
+The power company sends a text message before every scheduled outage.
+Our neighbours' dog barks at every delivery van that enters the lane.
+The university switched its email system, and half the messages went missing for a week.
+The engineering students tested their solar car on the empty college road at dawn.
+The cinema now offers recliner seats, blankets, and very expensive popcorn.
+I watched a tutorial on fixing the tap and flooded the bathroom anyway.
+The district hospital received three new ambulances equipped with GPS tracking.
+The team celebrated the product launch with a cake shaped like a smartphone.
+The city's bike-sharing scheme added two hundred electric bicycles this month.
+The visually impaired students asked for exam papers in Braille and large print.
+My phone's map app took us down a narrow road that ended at a river.
+The online form rejected my name because it contained an apostrophe.
+The museum's virtual tour was more popular than its real one during the lockdown.
+Nobody could explain why the office printer only worked on Wednesdays.
+The small bakery posts its daily menu on a messaging channel every morning at seven.
+The research group shared its dataset publicly so other teams could repeat the experiments.
+The headphones cancel noise so well that I missed my stop twice.
+The school bus now has a tracking app that parents check every few minutes.
+The quiz show asked contestants to name three rivers that flow through Kerala.
+The software engineer quit her job to open a bookshop by the beach.
+The new stadium has solar panels on its roof and collects rainwater for the pitch.
+My laptop restarted for an update in the middle of my online interview.
+The waiter recommended the fish curry, and he was absolutely right.
+The government launched a portal where citizens can report potholes with photographs.
+The students built a talking calculator for classmates who cannot see the screen.
+The electricity bill doubled after we bought an air conditioner in April.
+The startup claims its glasses can read printed text aloud in real time.
+The heavy traffic made us twenty minutes late for the wedding reception.
+Her online yoga class has participants from nine different countries.
+The ticket said gate 14, but the flight actually left from gate 41.

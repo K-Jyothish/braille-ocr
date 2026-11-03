@@ -28,7 +28,7 @@ from .layout import Geometry, PageLayout, paginate
 from .render import render_page
 
 TEST_LEVELS = (0.0, 0.25, 0.5, 0.75, 1.0)
-_SPLIT_CODE = {"train": 0, "val": 1, "test": 2}
+_SPLIT_CODE = {"train": 0, "val": 1, "test": 2, "test_unseen": 3}
 DOT_FIELDS = ["x", "y", "line", "col", "dot", "amplitude"]
 
 
