@@ -1,0 +1,15 @@
+{
+  "_comment": "Project Gutenberg books by ID. Splits are by book, and no author appears in more than one split, so test text is never seen in training.",
+  "books": [
+    {"id": 1342,  "title": "Pride and Prejudice",                 "author": "Jane Austen",          "split": "train"},
+    {"id": 84,    "title": "Frankenstein",                        "author": "Mary Shelley",         "split": "train"},
+    {"id": 98,    "title": "A Tale of Two Cities",                "author": "Charles Dickens",      "split": "train"},
+    {"id": 2701,  "title": "Moby Dick",                           "author": "Herman Melville",      "split": "train"},
+    {"id": 74,    "title": "The Adventures of Tom Sawyer",        "author": "Mark Twain",           "split": "train"},
+    {"id": 1661,  "title": "The Adventures of Sherlock Holmes",   "author": "Arthur Conan Doyle",   "split": "train"},
+    {"id": 64317, "title": "The Great Gatsby",                    "author": "F. Scott Fitzgerald",  "split": "train"},
+    {"id": 11,    "title": "Alice's Adventures in Wonderland",    "author": "Lewis Carroll",        "split": "val"},
+    {"id": 345,   "title": "Dracula",                             "author": "Bram Stoker",          "split": "test"},
+    {"id": 174,   "title": "The Picture of Dorian Gray",          "author": "Oscar Wilde",          "split": "test"}
+  ]
+}

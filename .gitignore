@@ -1,0 +1,25 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# virtualenv
+.venv/
+venv/
+
+# generated data and large artifacts
+data/
+*.pth
+*.pt
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# os / editor
+.DS_Store
+.vscode/
+.idea/
